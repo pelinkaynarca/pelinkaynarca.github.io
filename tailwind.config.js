@@ -5,15 +5,15 @@ export default {
   ],
   theme: {
     colors: {
-      'body-bg': '#2A2438',
-      'nav-bg': 'rgba(42, 36, 56, 0.9)',
-      'section-bg': '#352F44',
-      'accent1': '#DBD8E3',
+      'primary': 'rgb(20, 22, 25)',
+      'card': '#292d33', /** #2c2e3a  #292d33 */
+      'accent1': '#DBD8E3', /** #DBD8E3 */
       'unfocused': 'rgba(219, 216, 227, 0.4)',
       'hover-skill': 'rgba(145, 109, 213, 0.15)',
       'hover-nav': 'rgba(219, 216, 227, 0.7)',
-      'accent2': 'rgb(145, 109, 213)',
-      'skill-alt': 'rgb(173, 141, 235)'
+      'accent2': '#8860d0', /** rgb(145, 109, 213) */
+      'skill-alt': 'rgb(173, 141, 235)',
+      'error': '#DC4523',
     },
     fontFamily: {
       'primary': ['Poppins', 'sans-serif']

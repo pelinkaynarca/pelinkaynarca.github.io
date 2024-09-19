@@ -10,13 +10,13 @@ const ProjectCard = ({
   repoLink,
   liveLink,
 }) => (
-  <div className="lg:h-[430px] bg-section-bg rounded-xl flex justify-center p-6">
+  <div className="lg:h-[430px] bg-card rounded-xl flex justify-center p-6">
     <div className="lg:w-full h-full flex flex-col gap-2">
       <div className="flex flex-col gap-4">
         <img
           className="rounded-xl shadow-lg shadow-body-bg"
           src={imageSrc}
-          alt="Image"
+          alt="Pic"
         />
         <p className="font-bold text-base lg:text-lg text-accent1 text-center">
           {title}

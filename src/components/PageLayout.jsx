@@ -6,7 +6,7 @@ const PageLayout = ({ children }) => {
   return (
     <div
       id="page-layout-parent"
-      className="flex flex-col bg-body-bg min-h-dvh w-full pb-24 items-center font-primary tracking-tight"
+      className="flex flex-col bg-primary min-h-dvh w-full pb-24 items-center font-primary tracking-tight"
     >
       <Navbar />
       {children}
