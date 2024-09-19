@@ -4,6 +4,8 @@ import ProjectCard from "./components/ProjectCard";
 import LBProjectImg from "../../assets/lb-project.png";
 import IPProjectImg from "../../assets/ip-project.png";
 import LMSProjectImg from "../../assets/lms-project.png";
+import HNDBProjectImg from "../../assets/hn-db-project.jpg";
+import HNFEProjectImg from "../../assets/hn-fe-project.png";
 
 const Projects = () => {
   return (
@@ -26,6 +28,22 @@ const Projects = () => {
           </p>
         </div>
         <div className="w-full grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-7">
+          <ProjectCard
+            imageSrc={HNDBProjectImg}
+            title="HotelNow — Backend"
+            description="It provides API for managing hotels, bookings, and users. It features global exception handling, a base controller for consistent API responses, and secure role-based access control."
+            techStack="PostgreSQL, Spring Boot, Spring Security, MapStruct, JJWT"
+            repoLink="https://github.com/pelinkaynarca/hotelnow-backend"
+            liveLink=""
+          />
+          <ProjectCard
+            imageSrc={HNFEProjectImg}
+            title="HotelNow — Frontend"
+            description="It offers a user-friendly interface for customers and managers. It includes a custom HttpClientService for handling API responses and secure route protection."
+            techStack="Angular 16, Tailwind CSS, NgBootstrap, Sweet Alert"
+            repoLink="https://github.com/pelinkaynarca/hotelnow-frontend"
+            liveLink=""
+          />
           <ProjectCard
             imageSrc={LBProjectImg}
             title="Year in Film Colors"

@@ -38,7 +38,7 @@ const ContactForm = () => {
 
   return (
     <div className="relative flex items-center justify-center w-[92%] lg:w-big-screen mb-14 text-accent1">
-      <div className="w-full border-[1px] flex flex-col gap-5 md:gap-10 rounded-2xl shadow-lg border-accent2 h-fit md:h-[700px] bg-card border-opacity-25 p-10 md:p-16">
+      <div className="w-full border-[1px] flex flex-col gap-5 md:gap-10 rounded-2xl shadow-lg border-accent2 h-fit md:h-[700px] bg-card border-opacity-25 p-8 md:p-16">
         <h2 className="text-2xl font-semibold text-accent1 mb-5">Contact Me</h2>
 
         <form onSubmit={handleSubmit}>

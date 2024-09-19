@@ -14,7 +14,7 @@ const ProjectCard = ({
     <div className="lg:w-full h-full flex flex-col gap-2">
       <div className="flex flex-col gap-4">
         <img
-          className="rounded-xl shadow-lg shadow-body-bg"
+          className="rounded-xl h-48 shadow-lg shadow-body-bg"
           src={imageSrc}
           alt="Pic"
         />
