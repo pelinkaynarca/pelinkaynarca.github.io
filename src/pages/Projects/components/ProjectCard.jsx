@@ -10,25 +10,23 @@ const ProjectCard = ({
   repoLink,
   liveLink,
 }) => (
-  <div className="lg:h-[430px] bg-card rounded-xl flex justify-center p-6">
+  <div className="lg:h-[440px] bg-card rounded-xl flex justify-center p-5 lg:p-7">
     <div className="lg:w-full h-full flex flex-col gap-2">
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col mb-1.5">
         <img
-          className="rounded-xl h-48 shadow-lg shadow-body-bg"
+          className="rounded-xl md:h-52 shadow-lg shadow-body-bg"
           src={imageSrc}
           alt="Pic"
         />
+      </div>
+      <div className="h-full flex flex-col justify-between gap-1.5 lg:gap-0">
         <p className="font-bold text-base lg:text-lg text-accent1 text-center">
           {title}
         </p>
-      </div>
-      <div className="h-full flex flex-col justify-between">
-        <div className="flex">
-          <p className="text-accent1 text-sm lg:text-base text-opacity-90">
-            {description}
-          </p>
-        </div>
-        <div className="flex flex-row items-center justify-between">
+        <p className="text-accent1 text-sm lg:text-base text-opacity-90">
+          {description}
+        </p>
+        <div className="flex flex-row items-center justify-between gap-2">
           <p className="text-skill-alt text-sm">{techStack}</p>
           <div className="flex flex-row items-center">
             <a href={repoLink}>

@@ -39,7 +39,12 @@ const ContactForm = () => {
   return (
     <div className="relative flex items-center justify-center w-[92%] lg:w-big-screen mb-14 text-accent1">
       <div className="w-full border-[1px] flex flex-col gap-5 md:gap-10 rounded-2xl shadow-lg border-accent2 h-fit md:h-[700px] bg-card border-opacity-25 p-8 md:p-16">
-        <h2 className="text-2xl font-semibold text-accent1 mb-5">Contact Me</h2>
+      <div className="relative flex flex-row items-center w-64 lg:w-96">
+            <p className="text-2xl font-semibold text-accent1 relative flex-shrink mr-4">
+              Contact Me
+            </p>
+            <div className="flex-grow border-t border-gray-400 text-accent2"></div>
+          </div>
 
         <form onSubmit={handleSubmit}>
           <FormField

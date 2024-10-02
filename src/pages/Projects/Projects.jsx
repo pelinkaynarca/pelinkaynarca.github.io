@@ -31,7 +31,7 @@ const Projects = () => {
           <ProjectCard
             imageSrc={HNDBProjectImg}
             title="HotelNow — Backend"
-            description="It provides API for managing hotels, bookings, and users. It features global exception handling, a base controller for consistent API responses, and secure role-based access control."
+            description="It provides API for managing hotels, bookings, and users. It features global exception handling, a base controller for consistent API responses, and secure role-based authorization and authentication."
             techStack="PostgreSQL, Spring Boot, Spring Security, MapStruct, JJWT"
             repoLink="https://github.com/pelinkaynarca/hotelnow-backend"
             liveLink=""
@@ -50,7 +50,7 @@ const Projects = () => {
             description="A project where the user's Letterboxd diary is transformed
             into a dynamic colorful representation in the form of a
             calendar."
-            techStack="JS, TailwindCSS, Puppeteer"
+            techStack="JS, Node.js, Tailwind CSS, Puppeteer"
             repoLink="https://github.com/pelinkaynarca/letterboxd-year-in-film-colors"
             liveLink="https://yearinfilmcolors.onrender.com"
           />
