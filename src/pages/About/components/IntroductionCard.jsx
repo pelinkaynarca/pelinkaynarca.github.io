@@ -19,11 +19,9 @@ const IntroductionCard = () => (
             </div>
             <div className="flex flex-col justify-center text-justify text-sm w-[90%] md:w-4/6 h-full gap-5 md:text-base lg:text-lg">
               <span className="indent-7">
-              Hi! I'm Pelin, a web developer who believes in the power of determination. In 2023, I made a bold career change to pursue my passion for web development. Like crocheting, which I also taught myself from scratch, my coding journey has shown me that if I set my mind to something, I can achieve it — even if it means starting from zero. 
+              Hi! I'm Pelin, a developer with strong foundation in Java, Spring Boot, and PostgreSQL. Experienced in developing applications within the Spring ecosystem, focusing on clean architecture and modern practices. 
                 </span>
-              <span className="indent-7">
-              I have recently gained hands-on experience with modern technologies like Spring Boot, PostgreSQL, Angular 16, and I am focused on continuous learning and personal growth in my career.
-              </span>
+                <span className="indent-7">When I'm not coding, you'll probably find me crocheting, knitting or studying languages (currently Dutch and Korean). I'm all about learning new things, improving what I build, and occasionally breaking things just to see how they work. </span>
             </div>
           </div>
         </div>

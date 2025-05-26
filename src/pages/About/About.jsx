@@ -7,6 +7,7 @@ import JavaScriptLogo from "../../components/SvgComponents/JavaScriptLogo";
 import JavaLogo from "../../components/SvgComponents/JavaLogo";
 import SpringBootLogo from "../../components/SvgComponents/SpringBootLogo";
 import PostgreSQLLogo from "../../components/SvgComponents/PostgreSQLLogo";
+import DockerLogo from "../../components/SvgComponents/DockerLogo";
 import SkillCard from "./components/SkillCard";
 import IntroductionCard from "./components/IntroductionCard";
 import PageLayout from "../../components/PageLayout";
@@ -26,13 +27,14 @@ const About = () => {
           </p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5 lg:grid-cols-4 lg:grid-rows-2 lg:gap-7">
-          <SkillCard LogoComponent={HtmlLogo} title="HTML5" />
-          <SkillCard LogoComponent={CssLogo} title="CSS3" />
-          <SkillCard LogoComponent={TailwindCssLogo} title="Tailwind CSS" />
-          <SkillCard LogoComponent={JavaScriptLogo} title="JavaScript" />
           <SkillCard LogoComponent={JavaLogo} title="Java" />
           <SkillCard LogoComponent={SpringBootLogo} title="Spring Boot" />
           <SkillCard LogoComponent={PostgreSQLLogo} title="PostgreSQL" />
+          <SkillCard LogoComponent={DockerLogo} title="Docker" />
+          <SkillCard LogoComponent={JavaScriptLogo} title="JavaScript" />
+          <SkillCard LogoComponent={HtmlLogo} title="HTML5" />
+          <SkillCard LogoComponent={CssLogo} title="CSS3" />
+          <SkillCard LogoComponent={TailwindCssLogo} title="Tailwind CSS" />
         </div>
       </section>
     </PageLayout>
