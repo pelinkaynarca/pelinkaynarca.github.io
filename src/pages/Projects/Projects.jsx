@@ -6,6 +6,7 @@ import IPProjectImg from "../../assets/ip-project.png";
 import LMSProjectImg from "../../assets/lms-project.png";
 import HNDBProjectImg from "../../assets/hn-db-project.jpg";
 import HNFEProjectImg from "../../assets/hn-fe-project.png";
+import APProjectImg from "../../assets/ap-project.png";
 
 const Projects = () => {
   return (
@@ -28,6 +29,14 @@ const Projects = () => {
           </p>
         </div>
         <div className="w-full grid grid-cols-1 gap-5 md:grid-cols-2 md:gap-7">
+        <ProjectCard
+            imageSrc={APProjectImg}
+            title="AirPulse"
+            description="A real-time air quality monitoring system with event-driven anomaly detection. It uses detection algorithms for identifying pollution increases and WHO guideline violations."
+            techStack="Spring Boot, PostgreSQL, Hibernate, RabbitMQ, Docker, Maven"
+            repoLink="https://github.com/pelinkaynarca/airpulse-backend"
+            liveLink=""
+          />
           <ProjectCard
             imageSrc={HNDBProjectImg}
             title="HotelNow — Backend"
@@ -47,7 +56,7 @@ const Projects = () => {
           <ProjectCard
             imageSrc={LBProjectImg}
             title="Year in Film Colors"
-            description="A project where the user's Letterboxd diary is transformed
+            description="A project where the user's Letterboxd diary, after being scraped, is transformed
             into a dynamic colorful representation in the form of a
             calendar."
             techStack="JS, Node.js, Tailwind CSS, Puppeteer"
